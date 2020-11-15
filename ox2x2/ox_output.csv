@@ -1,36 +1,12 @@
-,PREVIOUS_STATES,STATE,NEXT_STATES
-____,[''],____,"['o___', '_o__', '__o_', '___o']"
-o___,['____'],o___,"['ox__', 'o_x_', 'o__x']"
-_o__,['____'],_o__,"['xo__', '_ox_', '_o_x']"
-__o_,['____'],__o_,"['x_o_', '_xo_', '__ox']"
-___o,['____'],___o,"['x__o', '_x_o', '__xo']"
-ox__,['o___'],ox__,"['oxo_', 'ox_o']"
-o_x_,['o___'],o_x_,"['oox_', 'o_xo']"
-o__x,['o___'],o__x,"['oo_x', 'o_ox']"
-xo__,['_o__'],xo__,"['xoo_', 'xo_o']"
-_ox_,['_o__'],_ox_,"['oox_', '_oxo']"
-_o_x,['_o__'],_o_x,"['oo_x', '_oox']"
-x_o_,['__o_'],x_o_,"['xoo_', 'x_oo']"
-_xo_,['__o_'],_xo_,"['oxo_', '_xoo']"
-__ox,['__o_'],__ox,"['o_ox', '_oox']"
-x__o,['___o'],x__o,"['xo_o', 'x_oo']"
-_x_o,['___o'],_x_o,"['ox_o', '_xoo']"
-__xo,['___o'],__xo,"['o_xo', '_oxo']"
-oxo_,"['ox__', '_xo_']",oxo_,['oxox']
-ox_o,"['ox__', '_x_o']",ox_o,['oxxo']
-oox_,"['o_x_', '_ox_']",oox_,['ooxx']
-o_xo,"['o_x_', '__xo']",o_xo,['oxxo']
-oo_x,"['o__x', '_o_x']",oo_x,['ooxx']
-o_ox,"['o__x', '__ox']",o_ox,['oxox']
-xoo_,"['xo__', 'x_o_']",xoo_,['xoox']
-xo_o,"['xo__', 'x__o']",xo_o,['xoxo']
-_oxo,"['_ox_', '__xo']",_oxo,['xoxo']
-_oox,"['_o_x', '__ox']",_oox,['xoox']
-x_oo,"['x_o_', 'x__o']",x_oo,['xxoo']
-_xoo,"['_xo_', '_x_o']",_xoo,['xxoo']
-oxox,"['oxo_', 'o_ox']",oxox,[]
-oxxo,"['ox_o', 'o_xo']",oxxo,[]
-ooxx,"['oox_', 'oo_x']",ooxx,[]
-xoox,"['xoo_', '_oox']",xoox,[]
-xoxo,"['xo_o', '_oxo']",xoxo,[]
-xxoo,"['x_oo', '_xoo']",xxoo,[]
+,PREVIOUS_STATES,STATE,NEXT_STATES,RESULT
+____,[''],____,['o___'],
+o___,['____'],o___,"['o__x', 'o_x_', 'ox__']",
+o__x,['o___'],o__x,"['oo_x', 'o_ox']",
+o_x_,['o___'],o_x_,"['o_xo', 'oox_']",
+ox__,['o___'],ox__,"['oxo_', 'ox_o']",
+oo_x,['o__x'],oo_x,[],o_win
+o_ox,['o__x'],o_ox,[],o_win
+o_xo,['o_x_'],o_xo,[],o_win
+oox_,['o_x_'],oox_,[],o_win
+oxo_,['ox__'],oxo_,[],o_win
+ox_o,['ox__'],ox_o,[],o_win
