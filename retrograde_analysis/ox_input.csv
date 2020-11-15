@@ -1,0 +1,12 @@
+,PREVIOUS_STATES,STATE,NEXT_STATES,RESULT
+____,[''],____,['o___'],
+o___,['____'],o___,"['o__x', 'o_x_', 'ox__']",
+o__x,['o___'],o__x,"['oo_x', 'o_ox']",
+o_x_,['o___'],o_x_,"['o_xo', 'oox_']",
+ox__,['o___'],ox__,"['oxo_', 'ox_o']",
+oo_x,['o__x'],oo_x,[],o_win
+o_ox,['o__x'],o_ox,[],o_win
+o_xo,['o_x_'],o_xo,[],o_win
+oox_,['o_x_'],oox_,[],o_win
+oxo_,['ox__'],oxo_,[],o_win
+ox_o,['ox__'],ox_o,[],o_win
